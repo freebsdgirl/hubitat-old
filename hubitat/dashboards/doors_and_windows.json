@@ -1,0 +1,197 @@
+{
+	"roundedCorners": 10,
+	"dateFormat": "MM/DD/YYYY",
+	"hideLabels": true,
+	"customColors": [
+	  {
+		"template": "hsm",
+		"bgColor": "rgba(255,0,5,0.19)",
+		"iconColor": "",
+		"state": "armedhome",
+		"customIcon": ""
+	  },
+	  {
+		"template": "hsm",
+		"bgColor": "rgba(255,0,5,0.21)",
+		"iconColor": "",
+		"state": "armednight",
+		"customIcon": ""
+	  },
+	  {
+		"template": "lock",
+		"bgColor": "rgba(0,0,0,0.58)",
+		"iconColor": "",
+		"state": "locked",
+		"customIcon": ""
+	  },
+	  {
+		"template": "lock",
+		"bgColor": "rgba(0,0,0,0.35)",
+		"iconColor": "",
+		"state": "unlocked",
+		"customIcon": ""
+	  },
+	  {
+		"template": "hsm",
+		"bgColor": "rgba(0,47,255,0.28)",
+		"iconColor": "",
+		"customIcon": "",
+		"state": "disarmed"
+	  },
+	  {
+		"template": "door",
+		"bgColor": "rgba(199,0,255,0.58)",
+		"iconColor": "",
+		"customIcon": "",
+		"state": "open"
+	  },
+	  {
+		"template": "door",
+		"bgColor": "rgba(199,0,255,0.14)",
+		"iconColor": "",
+		"customIcon": "",
+		"state": "closed"
+	  },
+	  {
+		"template": "window",
+		"bgColor": "rgba(199,0,255,0.14)",
+		"iconColor": "",
+		"customIcon": "",
+		"state": "closed"
+	  },
+	  {
+		"template": "window",
+		"bgColor": "rgba(199,0,255,0.58)",
+		"iconColor": "",
+		"customIcon": "",
+		"state": "open"
+	  },
+	  {
+		"template": "hsm",
+		"bgColor": "rgba(255,0,5,0.22)",
+		"iconColor": "",
+		"customIcon": "",
+		"state": "armingaway"
+	  }
+	],
+	"colWidth": "",
+	"cloudRefresh": 5,
+	"hsmPin": "",
+	"hide3dot": true,
+	"clockMode": true,
+	"gridGap": 8,
+	"tiles": [
+	  {
+		"rowSpan": 3,
+		"template": "door",
+		"col": 10,
+		"colSpan": 3,
+		"id": 0,
+		"row": 1,
+		"device": "50"
+	  },
+	  {
+		"rowSpan": 3,
+		"template": "door",
+		"col": 6,
+		"colSpan": 3,
+		"id": 1,
+		"row": 4,
+		"device": "37",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 3,
+		"template": "door",
+		"col": 1,
+		"colSpan": 4,
+		"id": 3,
+		"row": 1,
+		"device": "38",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "window",
+		"col": 6,
+		"colSpan": 3,
+		"id": 4,
+		"row": 9,
+		"device": "59",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "window",
+		"col": 10,
+		"colSpan": 3,
+		"id": 5,
+		"row": 9,
+		"device": "60",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 3,
+		"template": "door",
+		"col": 10,
+		"colSpan": 3,
+		"id": 6,
+		"row": 5,
+		"device": "65"
+	  },
+	  {
+		"rowSpan": 3,
+		"template": "door",
+		"col": 6,
+		"colSpan": 3,
+		"id": 7,
+		"row": 1,
+		"device": "89"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "window",
+		"col": 6,
+		"colSpan": 3,
+		"id": 8,
+		"row": 7,
+		"device": "88"
+	  },
+	  {
+		"rowSpan": 3,
+		"template": "lock",
+		"col": 1,
+		"colSpan": 4,
+		"id": 10,
+		"row": 4,
+		"device": "87",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 3,
+		"template": "hsm",
+		"col": 1,
+		"colSpan": 4,
+		"id": 11,
+		"row": 7,
+		"device": "-3"
+	  }
+	],
+	"goBack": true,
+	"modePin": "",
+	"bgColor": "dodgerblue",
+	"lanRefresh": 2,
+	"iconSize": "50",
+	"cols": 12,
+	"rowHeight": "",
+	"customCSS": ".hsmBtn {\n font-size: 60px;\n}\n\ndiv.hsmBtn {\n font-size: 10px;\n}\n/* .dashLink,\n.hsmBtn,\n.linkBtn,\n.modeBtn {\n position:absolute;\n top:calc(50% - 16px);\n text-align:center;\n width:calc(100% - 8px);\n white-space:normal;\n text-overflow:clip;\n overflow:hidden\n}\n.dashLink,\n.linkBtn {\n font-size:18px\n} */",
+	"hideEvents": true,
+	"tempScale": "F",
+	"noColors": false,
+	"readOnly": null,
+	"rows": 9,
+	"hideIconText": true,
+	"name": "Doors and Windows",
+	"fontSize": 18,
+	"background": "https://i.imgur.com/VPPkA6a.jpg"
+  }

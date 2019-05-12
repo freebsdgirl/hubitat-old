@@ -1,0 +1,176 @@
+{
+	"roundedCorners": 10,
+	"dateFormat": "MM/DD/YYYY",
+	"hideLabels": true,
+	"customColors": [
+		{
+			"template": "buttons",
+			"bgColor": "",
+			"iconColor": "",
+			"state": "default",
+			"customIcon": "power_settings_new"
+		},
+		{
+			"template": "switches",
+			"bgColor": "rgba(0,186,255,1)",
+			"iconColor": "",
+			"state": "on",
+			"customIcon": "power_settings_new"
+        },
+        {
+			"template": "switches",
+			"bgColor": "rgba(22,15,49,1)",
+			"iconColor": "",
+			"state": "off",
+			"customIcon": "power_settings_new"
+        }
+    ],
+    "colWidth": "",
+    "cloudRefresh": 5,
+    "hsmPin": "",
+    "hide3dot": true,
+    "clockMode": true,
+    "gridGap": 5,
+    "tiles": [
+        {
+            "rowSpan": 1,
+            "template": "attribute",
+            "col": 3,
+            "colSpan": 2,
+            "id": 61,
+            "row": 4,
+            "device": "34",
+            "templateExtra": "occupancy"
+        },
+        {
+            "rowSpan": 1,
+            "template": "attribute",
+            "col": 5,
+            "colSpan": 2,
+            "id": 62,
+            "row": 4,
+            "device": "56",
+            "templateExtra": "occupancy"
+        },
+        {
+            "rowSpan": 1,
+            "template": "attribute",
+            "col": 9,
+            "colSpan": 2,
+            "id": 63,
+            "row": 4,
+            "device": "36",
+            "templateExtra": "occupancy"
+        },
+        {
+            "rowSpan": 1,
+            "template": "attribute",
+            "col": 7,
+            "colSpan": 2,
+            "id": 64,
+            "row": 4,
+            "device": "57",
+            "templateExtra": "occupancy"
+        },
+        {
+            "rowSpan": 1,
+            "template": "attribute",
+            "col": 1,
+            "colSpan": 2,
+            "id": 65,
+            "row": 4,
+            "device": "58",
+            "templateExtra": "occupancy"
+        },
+        {
+            "rowSpan": 1,
+            "template": "switches",
+            "col": 3,
+            "colSpan": 2,
+            "id": 67,
+            "row": 3,
+            "device": "34",
+            "templateExtra": "2",
+            "customIcon": "power_settings_new"
+        },
+        {
+            "rowSpan": 1,
+            "template": "switches",
+            "col": 5,
+            "colSpan": 2,
+            "id": 68,
+            "row": 3,
+            "device": "56"
+        },
+        {
+            "rowSpan": 1,
+            "template": "switches",
+            "col": 1,
+            "colSpan": 2,
+            "id": 69,
+            "row": 3,
+            "device": "58"
+        },
+        {
+            "rowSpan": 1,
+            "template": "switches",
+            "col": 7,
+            "colSpan": 2,
+            "id": 70,
+            "row": 3,
+            "device": "57"
+        },
+        {
+            "rowSpan": 1,
+            "template": "switches",
+            "col": 9,
+            "colSpan": 2,
+            "id": 72,
+            "row": 3,
+            "device": "36"
+        },
+        {
+            "rowSpan": 2,
+            "template": "mode",
+            "col": 1,
+            "colSpan": 5,
+            "id": 73,
+            "row": 1
+        },
+        {
+            "rowSpan": 2,
+            "template": "clock-date",
+            "col": 6,
+            "colSpan": 5,
+            "id": 74,
+            "row": 1
+        },
+        {
+            "rowSpan": 1,
+            "template": "buttons",
+            "col": 1,
+            "colSpan": 2,
+            "id": 78,
+            "row": 5,
+            "device": "193",
+            "templateExtra": "5",
+            "customIcon": "bubble_chart"
+        }
+    ],
+    "goBack": true,
+    "modePin": "",
+    "bgColor": "purple",
+    "lanRefresh": 2,
+    "iconSize": "90",
+    "cols": 10,
+    "rowHeight": "",
+    "hideEvents": true,
+    "tempScale": "F",
+    "noColors": false,
+    "readOnly": null,
+    "rows": 5,
+    "hideIconText": true,
+    "background": "https://i.imgur.com/1mPnYYB.jpg",
+    "name": "Room Status",
+    "fontSize": 14
+}

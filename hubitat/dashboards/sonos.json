@@ -1,0 +1,87 @@
+{
+  "roundedCorners": 10,
+  "dateFormat": "MM/DD/YYYY",
+  "hideLabels": true,
+  "customColors": [
+    {
+      "template": "attribute",
+      "bgColor": "rgba(0,0,0,0.32)",
+      "iconColor": "",
+      "state": "default",
+      "customIcon": ""
+    },
+    {
+      "template": "music-player",
+      "bgColor": "rgba(0,0,0,0.32)",
+      "iconColor": "",
+      "state": "default",
+      "customIcon": ""
+    }
+  ],
+  "colWidth": "",
+  "cloudRefresh": 5,
+  "hsmPin": "",
+  "hide3dot": true,
+  "clockMode": true,
+  "gridGap": 10,
+  "tiles": [
+    {
+      "rowSpan": 3,
+      "template": "attribute",
+      "col": 4,
+      "colSpan": 8,
+      "id": 2,
+      "bgImage": "",
+      "row": 1,
+      "device": "49",
+      "templateExtra": "trackDescription"
+    },
+    {
+      "rowSpan": 3,
+      "template": "attribute",
+      "col": 4,
+      "colSpan": 8,
+      "id": 5,
+      "row": 5,
+      "device": "48",
+      "templateExtra": "trackDescription"
+    },
+    {
+      "rowSpan": 3,
+      "template": "music-player",
+      "col": 1,
+      "colSpan": 3,
+      "id": 6,
+      "row": 5,
+      "bgImage": "https://i.imgur.com/bkJld17.png",
+      "device": "48"
+    },
+    {
+      "rowSpan": 3,
+      "template": "music-player",
+      "col": 1,
+      "colSpan": 3,
+      "id": 7,
+      "row": 1,
+      "bgImage": "https://i.imgur.com/bkJld17.png",
+      "device": "49",
+      "templateExtra": null
+    }
+  ],
+  "goBack": true,
+  "modePin": "",
+  "bgColor": "indigo",
+  "lanRefresh": 2,
+  "iconSize": "104",
+  "cols": 6,
+  "rowHeight": "",
+  "hideEvents": false,
+  "tempScale": "F",
+  "noColors": false,
+  "readOnly": null,
+  "rows": 6,
+  "hideIconText": true,
+  "background": "https://i.imgur.com/3eQhgpo.jpg",
+  "name": "Sonos",
+  "fontSize": 30
+}

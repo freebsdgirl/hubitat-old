@@ -1,0 +1,98 @@
+{
+	"roundedCorners": 10,
+	"dateFormat": "MM/DD/YYYY",
+	"hideLabels": true,
+	"customColors": [
+	  {
+		"template": "dashboard",
+		"bgColor": "rgba(69,69,69,0.55)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  }
+	],
+	"colWidth": "",
+	"cloudRefresh": 5,
+	"hsmPin": "",
+	"hide3dot": true,
+	"clockMode": true,
+	"gridGap": 10,
+	"tiles": [
+	  {
+		"rowSpan": 2,
+		"template": "dashboard",
+		"col": 1,
+		"colSpan": 2,
+		"id": 0,
+		"row": 3,
+		"device": "0",
+		"templateExtra": "45"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "dashboard",
+		"col": 3,
+		"colSpan": 2,
+		"id": 1,
+		"row": 1,
+		"device": "0",
+		"templateExtra": "39"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "dashboard",
+		"col": 1,
+		"colSpan": 2,
+		"id": 2,
+		"row": 1,
+		"device": "0",
+		"templateExtra": "40"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "dashboard",
+		"col": 3,
+		"colSpan": 2,
+		"id": 3,
+		"row": 3,
+		"device": "0",
+		"templateExtra": "42"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "dashboard",
+		"col": 5,
+		"colSpan": 2,
+		"id": 4,
+		"row": 1,
+		"device": "0",
+		"templateExtra": "41"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "dashboard",
+		"col": 5,
+		"colSpan": 2,
+		"id": 6,
+		"row": 3,
+		"device": "0",
+		"templateExtra": "111"
+	  }
+	],
+	"goBack": true,
+	"modePin": "",
+	"bgColor": "Black",
+	"lanRefresh": 2,
+	"iconSize": "40",
+	"cols": 6,
+	"rowHeight": "",
+	"hideEvents": false,
+	"tempScale": "F",
+	"noColors": false,
+	"readOnly": false,
+	"rows": 4,
+	"hideIconText": true,
+	"background": "https://i.imgur.com/GLo0o8c.jpg",
+	"name": "Dashboard Menu",
+	"fontSize": 22
+  }

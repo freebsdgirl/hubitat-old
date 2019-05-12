@@ -1,0 +1,263 @@
+{
+	"roundedCorners": 10,
+	"dateFormat": "MM/DD/YYYY",
+	"hideLabels": true,
+	"customColors": [
+	  {
+		"template": "dashboard",
+		"bgColor": "rgba(255,65,10,1)",
+		"iconColor": "",
+		"state": "default"
+	  },
+	  {
+		"template": "bulb",
+		"bgColor": "rgba(255,255,255,1)",
+		"iconColor": "rgba(42,63,255,1)",
+		"state": "off"
+	  },
+	  {
+		"template": "bulb",
+		"bgColor": "rgba(21,43,255,1)",
+		"iconColor": "rgba(255,255,255,1)",
+		"state": "on"
+	  },
+	  {
+		"template": "attribute",
+		"bgColor": "rgba(255,255,255,0.08)",
+		"iconColor": "rgba(255,255,255,1)",
+		"state": "default"
+	  },
+	  {
+		"template": "buttons",
+		"bgColor": "",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": "he-radio-unchecked"
+	  }
+	],
+	"colWidth": "",
+	"cloudRefresh": 5,
+	"hsmPin": "",
+	"hide3dot": true,
+	"clockMode": true,
+	"gridGap": 2,
+	"tiles": [
+	  {
+		"rowSpan": 3,
+		"template": "bulb",
+		"col": 1,
+		"colSpan": 11,
+		"id": 1,
+		"row": 8,
+		"device": "76",
+		"templateExtra": "-1"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 2,
+		"colSpan": 3,
+		"id": 8,
+		"row": 5,
+		"device": "166",
+		"templateExtra": "30",
+		"customIcon": "navigate_before"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "attribute",
+		"col": 5,
+		"colSpan": 6,
+		"id": 11,
+		"row": 5,
+		"device": "76",
+		"templateExtra": "effectName"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 11,
+		"colSpan": 3,
+		"id": 0,
+		"row": 5,
+		"device": "166",
+		"templateExtra": "31",
+		"customIcon": "navigate_next"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "attribute",
+		"col": 1,
+		"colSpan": 2,
+		"id": 3,
+		"row": 1,
+		"device": "166",
+		"templateExtra": "Color_12"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "attribute",
+		"col": 3,
+		"colSpan": 2,
+		"id": 4,
+		"row": 1,
+		"device": "166",
+		"templateExtra": "Color_11"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "attribute",
+		"col": 5,
+		"colSpan": 2,
+		"id": 6,
+		"row": 1,
+		"device": "166",
+		"templateExtra": "Color_4"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "attribute",
+		"col": 9,
+		"colSpan": 2,
+		"id": 8,
+		"row": 1,
+		"device": "166",
+		"templateExtra": "Color_6"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 1,
+		"colSpan": 2,
+		"id": 10,
+		"row": 2,
+		"device": "166",
+		"templateExtra": "12"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 3,
+		"colSpan": 2,
+		"id": 11,
+		"row": 2,
+		"device": "166",
+		"templateExtra": "11"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 5,
+		"colSpan": 2,
+		"id": 13,
+		"row": 2,
+		"device": "166",
+		"templateExtra": "4"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 9,
+		"colSpan": 2,
+		"id": 15,
+		"row": 2,
+		"device": "166",
+		"templateExtra": "6"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "attribute",
+		"col": 13,
+		"colSpan": 2,
+		"id": 20,
+		"row": 1,
+		"device": "166",
+		"templateExtra": "Color_8"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "attribute",
+		"col": 7,
+		"colSpan": 2,
+		"id": 21,
+		"row": 1,
+		"device": "166",
+		"templateExtra": "Color_9"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "attribute",
+		"col": 11,
+		"colSpan": 2,
+		"id": 22,
+		"row": 1,
+		"device": "166",
+		"templateExtra": "Color_10"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 13,
+		"colSpan": 2,
+		"id": 29,
+		"row": 2,
+		"device": "166",
+		"templateExtra": "8"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 7,
+		"colSpan": 2,
+		"id": 30,
+		"row": 2,
+		"device": "166",
+		"templateExtra": "9"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 11,
+		"colSpan": 2,
+		"id": 31,
+		"row": 2,
+		"device": "166",
+		"templateExtra": "10"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "buttons",
+		"col": 13,
+		"colSpan": 2,
+		"id": 44,
+		"row": 9,
+		"device": "166",
+		"templateExtra": "14"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "texttile",
+		"col": 13,
+		"colSpan": 2,
+		"id": 45,
+		"row": 8,
+		"templateExtra": "Random Colour"
+	  }
+	],
+	"goBack": true,
+	"modePin": "",
+	"bgColor": "royalblue",
+	"lanRefresh": 2,
+	"iconSize": "30",
+	"cols": 14,
+	"rowHeight": "",
+	"hideEvents": false,
+	"tempScale": "F",
+	"noColors": false,
+	"readOnly": null,
+	"rows": 10,
+	"hideIconText": false,
+	"background": "https://i.imgur.com/gwuaOza.jpg",
+	"name": "Nanoleaf Controller",
+	"fontSize": 13
+  }

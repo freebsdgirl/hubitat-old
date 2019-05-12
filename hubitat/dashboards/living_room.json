@@ -1,0 +1,510 @@
+{
+	"roundedCorners": 10,
+	"dateFormat": "MM/DD/YYYY",
+	"hideLabels": true,
+	"customColors": [
+	  {
+		"template": "music-player",
+		"bgColor": "rgba(255,0,182,0.33)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "temperature",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "humidity",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "clock-date",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "bulb",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "on",
+		"customIcon": ""
+	  },
+	  {
+		"template": "bulb",
+		"bgColor": "rgba(156,156,156,0.5)",
+		"iconColor": "rgba(255,255,255,1)",
+		"state": "off"
+	  },
+	  {
+		"template": "bulb-color",
+		"bgColor": "rgba(255,255,255,0.4)",
+		"iconColor": "rgba(255,255,255,1)",
+		"state": "on",
+		"customIcon": ""
+	  },
+	  {
+		"template": "bulb-color",
+		"bgColor": "rgba(0,0,0,0.48)",
+		"iconColor": "rgba(156,156,156,0.5)",
+		"state": "off"
+	  },
+	  {
+		"template": "contact",
+		"bgColor": "rgba(0,255,127,0.4)",
+		"iconColor": "",
+		"state": "open",
+		"customIcon": ""
+	  },
+	  {
+		"template": "contact",
+		"bgColor": "rgba(0,0,0,0.3)",
+		"iconColor": "",
+		"state": "closed",
+		"customIcon": ""
+	  },
+	  {
+		"template": "window",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "closed",
+		"customIcon": ""
+	  },
+	  {
+		"template": "window",
+		"bgColor": "rgba(156,156,156,0.5)",
+		"iconColor": "rgba(238,255,0,1)",
+		"state": "open",
+		"customIcon": ""
+	  },
+	  {
+		"template": "door",
+		"bgColor": "rgba(156,5,8,1)",
+		"iconColor": "",
+		"state": "open",
+		"customIcon": ""
+	  },
+	  {
+		"template": "outlet",
+		"bgColor": "rgba(255,255,255,0.67)",
+		"iconColor": "",
+		"state": "on",
+		"customIcon": ""
+	  },
+	  {
+		"template": "switches",
+		"bgColor": "rgba(255,255,255,0.4)",
+		"iconColor": "",
+		"state": "on",
+		"customIcon": ""
+	  },
+	  {
+		"template": "switches",
+		"bgColor": "rgba(156,156,156,0.5)",
+		"iconColor": "",
+		"state": "off",
+		"customIcon": ""
+	  },
+	  {
+		"template": "outlet",
+		"bgColor": "rgba(156,156,156,0.5)",
+		"iconColor": "",
+		"state": "off",
+		"customIcon": ""
+	  },
+	  {
+		"template": "clock",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "dashboard",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "dimmer",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "on",
+		"customIcon": ""
+	  },
+	  {
+		"template": "dimmer",
+		"bgColor": "rgba(156,156,156,0.5)",
+		"iconColor": "",
+		"state": "off",
+		"customIcon": ""
+	  },
+	  {
+		"template": "generic",
+		"bgColor": "rgba(0,0,0,0.1)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "illuminance",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "level-step",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "mode",
+		"bgColor": "rgba(0,206,255,0.25)",
+		"iconColor": "",
+		"state": "day",
+		"customIcon": ""
+	  },
+	  {
+		"template": "multi",
+		"bgColor": "rgba(156,156,156,0.5)",
+		"iconColor": "",
+		"state": "open",
+		"customIcon": ""
+	  },
+	  {
+		"template": "multi",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "closed",
+		"customIcon": ""
+	  },
+	  {
+		"template": "volume",
+		"bgColor": "rgba(255,0,232,0.33)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "weather",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "attribute",
+		"bgColor": "rgba(255,255,255,0.16)",
+		"iconColor": "rgba(255,255,255,1)",
+		"state": "default",
+		"customIcon": ""
+	  }
+	],
+	"colWidth": 84,
+	"cloudRefresh": 5,
+	"hsmPin": "",
+	"hide3dot": true,
+	"clockMode": true,
+	"gridGap": 2,
+	"tiles": [
+	  {
+		"rowSpan": 2,
+		"template": "bulb",
+		"col": 13,
+		"colSpan": 2,
+		"id": 1,
+		"row": 6,
+		"device": "123",
+		"templateExtra": null,
+		"customIcon": "he-hanging_roof_lamp"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "outlet",
+		"col": 7,
+		"colSpan": 2,
+		"id": 3,
+		"row": 8,
+		"bgImage": "https://i.imgur.com/1zGe6Vg.png",
+		"device": "42",
+		"customIcon": "he-switch"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "outlet",
+		"col": 7,
+		"colSpan": 4,
+		"id": 5,
+		"row": 5,
+		"device": "45",
+		"templateExtra": null,
+		"customIcon": "speaker"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "switches",
+		"col": 6,
+		"colSpan": 4,
+		"id": 6,
+		"row": 10,
+		"bgImage": "https://i.imgur.com/4ZtIQ1K.png",
+		"device": "116",
+		"templateExtra": null,
+		"customIcon": "lightbulb_outline"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "switches",
+		"col": 13,
+		"colSpan": 2,
+		"id": 7,
+		"row": 10,
+		"device": "40",
+		"templateExtra": null,
+		"customIcon": "settings_power"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "window",
+		"col": 9,
+		"colSpan": 2,
+		"id": 12,
+		"row": 3,
+		"device": "60",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "window",
+		"col": 7,
+		"colSpan": 2,
+		"id": 13,
+		"row": 3,
+		"device": "59",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 3,
+		"colSpan": 3,
+		"id": 16,
+		"row": 1,
+		"device": "63",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "humidity",
+		"col": 3,
+		"colSpan": 3,
+		"id": 18,
+		"row": 2,
+		"device": "63",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 4,
+		"template": "music-player",
+		"col": 1,
+		"colSpan": 4,
+		"id": 19,
+		"row": 5,
+		"bgImage": "https://i.imgur.com/bkJld17.png",
+		"device": "49",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "outlet",
+		"col": 9,
+		"colSpan": 2,
+		"id": 20,
+		"row": 8,
+		"bgImage": "https://i.imgur.com/1zGe6Vg.png",
+		"device": "41",
+		"templateExtra": null,
+		"customIcon": "he-switch"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "bulb",
+		"col": 1,
+		"colSpan": 2,
+		"id": 21,
+		"row": 9,
+		"device": "117",
+		"templateExtra": null,
+		"customIcon": "he-hanging_roof_lamp"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "contact",
+		"col": 10,
+		"colSpan": 2,
+		"id": 22,
+		"row": 10,
+		"bgImage": "https://i.imgur.com/oejhTvb.png",
+		"device": "52",
+		"templateExtra": null,
+		"customIcon": null
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "bulb",
+		"col": 13,
+		"colSpan": 2,
+		"id": 23,
+		"row": 8,
+		"device": "112",
+		"templateExtra": null,
+		"customIcon": "he-hanging_roof_lamp"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "outlet",
+		"col": 7,
+		"colSpan": 2,
+		"id": 25,
+		"row": 6,
+		"bgImage": "https://i.imgur.com/1zGe6Vg.png",
+		"device": "43",
+		"templateExtra": null,
+		"customIcon": "he-switch"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "outlet",
+		"col": 9,
+		"colSpan": 2,
+		"id": 26,
+		"row": 6,
+		"bgImage": "https://i.imgur.com/1zGe6Vg.png",
+		"device": "44",
+		"templateExtra": null,
+		"customIcon": "he-switch"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "bulb",
+		"col": 3,
+		"colSpan": 2,
+		"id": 27,
+		"row": 9,
+		"bgImage": "",
+		"device": "122",
+		"customIcon": "he-lamp_1"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "clock-date",
+		"col": 1,
+		"colSpan": 2,
+		"id": 28,
+		"row": 1
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "attribute",
+		"col": 9,
+		"colSpan": 2,
+		"id": 29,
+		"row": 1,
+		"device": "58",
+		"templateExtra": "occupancy"
+	  },
+	  {
+		"rowSpan": 4,
+		"template": "bulb-color",
+		"col": 6,
+		"colSpan": 1,
+		"id": 30,
+		"row": 6,
+		"bgImage": "https://i.imgur.com/nSWXadO.png",
+		"device": "120",
+		"customIcon": "lightbulb_outline"
+	  },
+	  {
+		"rowSpan": 4,
+		"template": "bulb-color",
+		"col": 11,
+		"colSpan": 1,
+		"id": 31,
+		"row": 6,
+		"bgImage": "https://i.imgur.com/nSWXadO.png",
+		"device": "121",
+		"templateExtra": null,
+		"customIcon": "lightbulb_outline"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "bulb",
+		"col": 12,
+		"colSpan": 3,
+		"id": 33,
+		"row": 3,
+		"bgImage": "https://i.imgur.com/VLx5AOM.png",
+		"device": "76",
+		"templateExtra": "effectName",
+		"customIcon": "lightbulb_outline"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "attribute",
+		"col": 1,
+		"colSpan": 5,
+		"id": 34,
+		"row": 3,
+		"device": "49",
+		"templateExtra": "trackDescription"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "dashboard",
+		"col": 12,
+		"colSpan": 3,
+		"id": 35,
+		"row": 1,
+		"bgImage": "https://i.imgur.com/8HdndFS.png",
+		"device": "0",
+		"templateExtra": "111"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "mode",
+		"col": 7,
+		"colSpan": 2,
+		"id": 36,
+		"row": 1,
+		"device": "58"
+	  }
+	],
+	"goBack": true,
+	"modePin": "",
+	"bgColor": "black",
+	"lanRefresh": 2,
+	"iconSize": "54",
+	"cols": 14,
+	"rowHeight": 84,
+	"hideEvents": false,
+	"tempScale": "F",
+	"noColors": false,
+	"readOnly": null,
+	"rows": 10,
+	"hideIconText": true,
+	"background": "https://i.imgur.com/efyv1G2.png",
+	"name": "Living Room",
+	"fontSize": 13
+  }

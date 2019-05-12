@@ -1,0 +1,242 @@
+{
+	"roundedCorners": 10,
+	"dateFormat": "MM/DD/YYYY",
+	"hideLabels": true,
+	"customColors": [
+	  {
+		"template": "temperature",
+		"bgColor": "rgba(81,0,255,0.37)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  },
+	  {
+		"template": "humidity",
+		"bgColor": "rgba(81,0,255,0.1)",
+		"iconColor": "",
+		"state": "default",
+		"customIcon": ""
+	  }
+	],
+	"colWidth": "",
+	"cloudRefresh": 5,
+	"hsmPin": "",
+	"hide3dot": true,
+	"clockMode": true,
+	"gridGap": 5,
+	"tiles": [
+	  {
+		"rowSpan": 2,
+		"template": "temperature",
+		"col": 9,
+		"colSpan": 3,
+		"id": 60,
+		"row": 7,
+		"device": "30"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 5,
+		"colSpan": 3,
+		"id": 61,
+		"row": 9,
+		"device": "50",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 1,
+		"colSpan": 3,
+		"id": 62,
+		"row": 5,
+		"device": "37",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 5,
+		"colSpan": 3,
+		"id": 64,
+		"row": 4,
+		"device": "38"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "temperature",
+		"col": 5,
+		"colSpan": 3,
+		"id": 65,
+		"row": 1,
+		"device": "35",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 9,
+		"colSpan": 3,
+		"id": 68,
+		"row": 5,
+		"device": "59",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 9,
+		"colSpan": 3,
+		"id": 69,
+		"row": 4,
+		"device": "60",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "humidity",
+		"col": 9,
+		"colSpan": 3,
+		"id": 73,
+		"row": 9,
+		"device": "30"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "humidity",
+		"col": 5,
+		"colSpan": 3,
+		"id": 74,
+		"row": 3,
+		"device": "35"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "temperature",
+		"col": 9,
+		"colSpan": 3,
+		"id": 77,
+		"row": 1,
+		"device": "63"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "humidity",
+		"col": 9,
+		"colSpan": 3,
+		"id": 78,
+		"row": 3,
+		"device": "63"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 9,
+		"colSpan": 3,
+		"id": 79,
+		"row": 10,
+		"device": "65"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "temperature",
+		"col": 1,
+		"colSpan": 3,
+		"id": 80,
+		"row": 1,
+		"device": "64"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "humidity",
+		"col": 1,
+		"colSpan": 3,
+		"id": 81,
+		"row": 3,
+		"device": "64",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "temperature",
+		"col": 1,
+		"colSpan": 3,
+		"id": 82,
+		"row": 8,
+		"device": "69"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "humidity",
+		"col": 1,
+		"colSpan": 3,
+		"id": 83,
+		"row": 10,
+		"device": "69",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 1,
+		"colSpan": 3,
+		"id": 84,
+		"row": 4,
+		"device": "88"
+	  },
+	  {
+		"rowSpan": 2,
+		"template": "temperature",
+		"col": 5,
+		"colSpan": 3,
+		"id": 85,
+		"row": 6,
+		"device": "132"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "humidity",
+		"col": 5,
+		"colSpan": 3,
+		"id": 86,
+		"row": 8,
+		"device": "132",
+		"templateExtra": null
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 1,
+		"colSpan": 3,
+		"id": 87,
+		"row": 6,
+		"device": "89"
+	  },
+	  {
+		"rowSpan": 1,
+		"template": "temperature",
+		"col": 5,
+		"colSpan": 3,
+		"id": 88,
+		"row": 10,
+		"device": "51"
+	  }
+	],
+	"goBack": true,
+	"modePin": "",
+	"bgColor": "skyblue",
+	"lanRefresh": 2,
+	"iconSize": "50",
+	"cols": 11,
+	"rowHeight": "",
+	"hideEvents": false,
+	"tempScale": "F",
+	"noColors": false,
+	"readOnly": null,
+	"rows": 10,
+	"hideIconText": true,
+	"background": "https://i.imgur.com/CzXpmOQ.jpg",
+	"name": "Temperature / Humidity",
+	"fontSize": 16
+  }
