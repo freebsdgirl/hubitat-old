@@ -3,6 +3,12 @@ My IoT config/setup
 
 ## Device List
 
+### hub
+ - hubitat [link](https://amzn.to/2VvqGyo)
+   - better than smartthings. not reliant on cloud to work. documentation is
+     lacking. better than homeassistant, though. unless detailed below, every
+     device i've listed works with hubitat.
+
 ### zwave
  - zooz power strip [link](https://amzn.to/2LCTXTd)
    - monitors power usage and can be controlled per-outlet.
