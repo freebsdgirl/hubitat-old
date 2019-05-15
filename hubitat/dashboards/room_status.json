@@ -16,161 +16,404 @@
 			"iconColor": "",
 			"state": "on",
 			"customIcon": "power_settings_new"
-        },
-        {
+		},
+		{
 			"template": "switches",
 			"bgColor": "rgba(22,15,49,1)",
 			"iconColor": "",
 			"state": "off",
 			"customIcon": "power_settings_new"
-        }
-    ],
-    "colWidth": "",
-    "cloudRefresh": 5,
-    "hsmPin": "",
-    "hide3dot": true,
-    "clockMode": true,
-    "gridGap": 5,
-    "tiles": [
-        {
-            "rowSpan": 1,
-            "template": "attribute",
-            "col": 3,
-            "colSpan": 2,
-            "id": 61,
-            "row": 4,
-            "device": "34",
-            "templateExtra": "occupancy"
-        },
-        {
-            "rowSpan": 1,
-            "template": "attribute",
-            "col": 5,
-            "colSpan": 2,
-            "id": 62,
-            "row": 4,
-            "device": "56",
-            "templateExtra": "occupancy"
-        },
-        {
-            "rowSpan": 1,
-            "template": "attribute",
-            "col": 9,
-            "colSpan": 2,
-            "id": 63,
-            "row": 4,
-            "device": "36",
-            "templateExtra": "occupancy"
-        },
-        {
-            "rowSpan": 1,
-            "template": "attribute",
-            "col": 7,
-            "colSpan": 2,
-            "id": 64,
-            "row": 4,
-            "device": "57",
-            "templateExtra": "occupancy"
-        },
-        {
-            "rowSpan": 1,
-            "template": "attribute",
-            "col": 1,
-            "colSpan": 2,
-            "id": 65,
-            "row": 4,
-            "device": "58",
-            "templateExtra": "occupancy"
-        },
-        {
-            "rowSpan": 1,
-            "template": "switches",
-            "col": 3,
-            "colSpan": 2,
-            "id": 67,
-            "row": 3,
-            "device": "34",
-            "templateExtra": "2",
-            "customIcon": "power_settings_new"
-        },
-        {
-            "rowSpan": 1,
-            "template": "switches",
-            "col": 5,
-            "colSpan": 2,
-            "id": 68,
-            "row": 3,
-            "device": "56"
-        },
-        {
-            "rowSpan": 1,
-            "template": "switches",
-            "col": 1,
-            "colSpan": 2,
-            "id": 69,
-            "row": 3,
-            "device": "58"
-        },
-        {
-            "rowSpan": 1,
-            "template": "switches",
-            "col": 7,
-            "colSpan": 2,
-            "id": 70,
-            "row": 3,
-            "device": "57"
-        },
-        {
-            "rowSpan": 1,
-            "template": "switches",
-            "col": 9,
-            "colSpan": 2,
-            "id": 72,
-            "row": 3,
-            "device": "36"
-        },
-        {
-            "rowSpan": 2,
-            "template": "mode",
-            "col": 1,
-            "colSpan": 5,
-            "id": 73,
-            "row": 1
-        },
-        {
-            "rowSpan": 2,
-            "template": "clock-date",
-            "col": 6,
-            "colSpan": 5,
-            "id": 74,
-            "row": 1
-        },
-        {
-            "rowSpan": 1,
-            "template": "buttons",
-            "col": 1,
-            "colSpan": 2,
-            "id": 78,
-            "row": 5,
-            "device": "193",
-            "templateExtra": "5",
-            "customIcon": "bubble_chart"
-        }
-    ],
-    "goBack": true,
-    "modePin": "",
-    "bgColor": "purple",
-    "lanRefresh": 2,
-    "iconSize": "90",
-    "cols": 10,
-    "rowHeight": "",
-    "hideEvents": true,
-    "tempScale": "F",
-    "noColors": false,
-    "readOnly": null,
-    "rows": 5,
-    "hideIconText": true,
-    "background": "https://i.imgur.com/1mPnYYB.jpg",
-    "name": "Room Status",
-    "fontSize": 14
+		},
+		{
+			"template": "texttile",
+			"bgColor": "rgba(0,0,0,0.44)",
+			"iconColor": "",
+			"customIcon": "",
+			"state": "default"
+		},
+		{
+			"template": "attribute",
+			"bgColor": "rgba(0,0,0,0.44)",
+			"iconColor": "",
+			"customIcon": "",
+			"state": "default"
+		}
+	],
+	"colWidth": "",
+	"cloudRefresh": 5,
+	"hsmPin": "",
+	"hide3dot": true,
+	"clockMode": true,
+	"gridGap": 5,
+	"tiles": [
+		{
+			"rowSpan": 2,
+			"template": "attribute",
+			"col": 4,
+			"colSpan": 2,
+			"id": 61,
+			"row": 4,
+			"device": "34",
+			"templateExtra": "occupancy"
+		},
+		{
+			"rowSpan": 2,
+			"template": "attribute",
+			"col": 7,
+			"colSpan": 2,
+			"id": 62,
+			"row": 4,
+			"device": "56",
+			"templateExtra": "occupancy"
+		},
+		{
+			"rowSpan": 2,
+			"template": "attribute",
+			"col": 13,
+			"colSpan": 2,
+			"id": 63,
+			"row": 4,
+			"device": "36",
+			"templateExtra": "occupancy"
+		},
+		{
+			"rowSpan": 2,
+			"template": "attribute",
+			"col": 10,
+			"colSpan": 2,
+			"id": 64,
+			"row": 4,
+			"device": "57",
+			"templateExtra": "occupancy"
+		},
+		{
+			"rowSpan": 2,
+			"template": "attribute",
+			"col": 1,
+			"colSpan": 2,
+			"id": 65,
+			"row": 4,
+			"device": "58",
+			"templateExtra": "occupancy"
+		},
+		{
+			"rowSpan": 3,
+			"template": "mode",
+			"col": 1,
+			"colSpan": 7,
+			"id": 73,
+			"row": 1
+		},
+		{
+			"rowSpan": 3,
+			"template": "clock-date",
+			"col": 8,
+			"colSpan": 7,
+			"id": 74,
+			"row": 1
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 4,
+			"colSpan": 2,
+			"id": 79,
+			"row": 8,
+			"device": "225",
+			"templateExtra": "1"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 4,
+			"colSpan": 2,
+			"id": 80,
+			"row": 7,
+			"templateExtra": "occupied"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 4,
+			"colSpan": 2,
+			"id": 85,
+			"bgImage": "",
+			"row": 12,
+			"device": "225",
+			"templateExtra": "4"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 4,
+			"colSpan": 2,
+			"id": 86,
+			"row": 11,
+			"templateExtra": "sleep"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 4,
+			"colSpan": 2,
+			"id": 87,
+			"row": 16,
+			"device": "225",
+			"templateExtra": "5"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 4,
+			"colSpan": 2,
+			"id": 88,
+			"row": 15,
+			"templateExtra": "locked"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 1,
+			"colSpan": 2,
+			"id": 89,
+			"row": 7,
+			"templateExtra": "occupied"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 1,
+			"colSpan": 2,
+			"id": 91,
+			"bgImage": "",
+			"row": 11,
+			"templateExtra": "sleep"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 1,
+			"colSpan": 2,
+			"id": 92,
+			"row": 15,
+			"templateExtra": "locked"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 1,
+			"colSpan": 2,
+			"id": 93,
+			"row": 8,
+			"device": "193",
+			"templateExtra": "1"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 1,
+			"colSpan": 2,
+			"id": 95,
+			"row": 12,
+			"device": "193",
+			"templateExtra": "4"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 1,
+			"colSpan": 2,
+			"id": 96,
+			"row": 16,
+			"device": "193",
+			"templateExtra": "5"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 7,
+			"colSpan": 2,
+			"id": 97,
+			"row": 7,
+			"templateExtra": "occupied"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 10,
+			"colSpan": 2,
+			"id": 98,
+			"row": 7,
+			"templateExtra": "occupied"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 13,
+			"colSpan": 2,
+			"id": 99,
+			"row": 7,
+			"templateExtra": "occupied"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 7,
+			"colSpan": 2,
+			"id": 103,
+			"row": 11,
+			"templateExtra": "sleep"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 10,
+			"colSpan": 2,
+			"id": 104,
+			"row": 11,
+			"templateExtra": "sleep"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 13,
+			"colSpan": 2,
+			"id": 105,
+			"row": 11,
+			"templateExtra": "sleep"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 7,
+			"colSpan": 2,
+			"id": 106,
+			"row": 15,
+			"templateExtra": "locked"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 10,
+			"colSpan": 2,
+			"id": 107,
+			"row": 15,
+			"templateExtra": "locked"
+		},
+		{
+			"rowSpan": 1,
+			"template": "texttile",
+			"col": 13,
+			"colSpan": 2,
+			"id": 108,
+			"row": 15,
+			"templateExtra": "locked"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 7,
+			"colSpan": 2,
+			"id": 109,
+			"row": 8,
+			"device": "227",
+			"templateExtra": "1"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 7,
+			"colSpan": 2,
+			"id": 111,
+			"row": 12,
+			"device": "227",
+			"templateExtra": "4"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 7,
+			"colSpan": 2,
+			"id": 112,
+			"row": 16,
+			"device": "227",
+			"templateExtra": "5"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 10,
+			"colSpan": 2,
+			"id": 113,
+			"row": 8,
+			"device": "229",
+			"templateExtra": "1"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 10,
+			"colSpan": 2,
+			"id": 115,
+			"row": 12,
+			"device": "229",
+			"templateExtra": "4"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 10,
+			"colSpan": 2,
+			"id": 116,
+			"row": 16,
+			"device": "229",
+			"templateExtra": "5"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 13,
+			"colSpan": 2,
+			"id": 117,
+			"row": 8,
+			"device": "228",
+			"templateExtra": "1"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 13,
+			"colSpan": 2,
+			"id": 119,
+			"row": 12,
+			"device": "228",
+			"templateExtra": "4"
+		},
+		{
+			"rowSpan": 2,
+			"template": "buttons",
+			"col": 13,
+			"colSpan": 2,
+			"id": 120,
+			"row": 16,
+			"device": "228",
+			"templateExtra": "5"
+		}
+	],
+	"goBack": true,
+	"modePin": "",
+	"bgColor": "purple",
+	"lanRefresh": 2,
+	"iconSize": "60",
+	"cols": 14,
+	"rowHeight": "",
+	"hideEvents": true,
+	"tempScale": "F",
+	"noColors": false,
+	"readOnly": null,
+	"rows": 17,
+	"hideIconText": true,
+	"background": "https://i.imgur.com/1mPnYYB.jpg",
+	"name": "Room Status",
+	"fontSize": 12
 }
